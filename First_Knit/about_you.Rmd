@@ -1,0 +1,101 @@
+---
+title: "First Knit"
+author: "Moises R Garcia"
+date: "August 8, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo2.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting? 
+
+
+
+###my answer 
+
+I am sitting in the second to last row. Usually when I first arrive to other classes I take the first seat that I see. I am using computer number 29. On a scale from 1-10 for seat arrangement I classify myself under an 8 because often times I dont like the current seat where I am sitting so I prefer to have the liberty to move as I feel fit. I have worked in team settings in the past.
+  
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+My first name is Moises and my middle name is Rodrigo I prefer Rodrigo but either one is fine.
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+   
+ I want to have a stable career and be even more independent than I am now. Psychology is one of the subjects that interests me the most. I hope to make it all the way to my Doctorates degree.
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+The only foreign country I have been to is Mexico. I have never been in the militay but if I happened to be drafted into it I would prefer to be placed in the Air Force. I chose the Air Force because it seems like the most interesting to me and I believe that is because planes in general have always been intriguing to me.  
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+   
+ Math 115 is required for me. Math has always been my weakest subject so I know this semester will be challenging but I am aiming for nothing lower than a B. My plan is to just not fall behind as that is one of my biggest struggles in math. Also I need to ask more questions when I dont understand something. 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+   
+My computer knowledge on a scale from 1-10 is at a 7. I do have computer access at home, I have WiFi and I own an Apple Mac. I drive myself to class. For this class I should have no issues when it comes to attendance. I attended Quartz Hill High School and I graduated in 2017. 
+
+
+
+
